@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vIYezZQ8UD7I3c6GFUFh1UbaYFDpJviYSQjfPuVeurvfBTszOWv15vivEfIEM5gjYQkQBbf3+l0HA6uBKXoCwQ==",
+  "dgSpecHash": "4XWhskcbGWLUCLC9YAL9a74P87WOtmc6rJ/Ax6qw8KJE3YYB6LYcHQIFWNZXvod0TWr4ndTP6qkYFalnJjQNUQ==",
   "success": true,
-  "projectFilePath": "D:\\AB Sistemas\\Curso Xamarin\\AppGallery\\AppGallery\\AppGallery.iOS\\AppGallery.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Patricia\\Desktop\\AppGallery\\AppGallery\\AppGallery.iOS\\AppGallery.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\AB Sistemas\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Patricia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],

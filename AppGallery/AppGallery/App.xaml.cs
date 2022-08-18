@@ -24,7 +24,13 @@ namespace AppGallery
             //pagina.CurrentPage = pagina.Children[1];
 
             //MainPage = new XamarinForms.Paginas.PaginaDeCarrossel.Carrossel();
-            MainPage = new XamarinForms.Paginas.PaginaDeAbas.Abas();
+            //var pagina = new masterdetailpage();
+            //menu
+            //pagina.master = ;
+            //conteúdo
+           // pagina.detail = ;
+
+            MainPage = new XamarinForms.Paginas.PaginaDeMenuLateral.MenuLateral();
         }
       
 

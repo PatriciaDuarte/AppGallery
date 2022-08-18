@@ -991,24 +991,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AB Sistemas\\.nuget\\packages\\": {},
+    "C:\\Users\\Patricia\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AB Sistemas\\Curso Xamarin\\AppGallery\\AppGallery\\AppGallery.iOS\\AppGallery.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Patricia\\Desktop\\AppGallery\\AppGallery\\AppGallery.iOS\\AppGallery.iOS.csproj",
       "projectName": "AppGallery.iOS",
-      "projectPath": "D:\\AB Sistemas\\Curso Xamarin\\AppGallery\\AppGallery\\AppGallery.iOS\\AppGallery.iOS.csproj",
-      "packagesPath": "C:\\Users\\AB Sistemas\\.nuget\\packages\\",
-      "outputPath": "D:\\AB Sistemas\\Curso Xamarin\\AppGallery\\AppGallery\\AppGallery.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Patricia\\Desktop\\AppGallery\\AppGallery\\AppGallery.iOS\\AppGallery.iOS.csproj",
+      "packagesPath": "C:\\Users\\Patricia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Patricia\\Desktop\\AppGallery\\AppGallery\\AppGallery.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\AB Sistemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Patricia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1017,15 +1020,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\projetos\\ab_sistemas\\Nuget-Local": {},
-        "http://nuget.uxdivers.com/grial": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\AB Sistemas\\Curso Xamarin\\AppGallery\\AppGallery\\AppGallery\\AppGallery.csproj": {
-              "projectPath": "D:\\AB Sistemas\\Curso Xamarin\\AppGallery\\AppGallery\\AppGallery\\AppGallery.csproj"
+            "C:\\Users\\Patricia\\Desktop\\AppGallery\\AppGallery\\AppGallery\\AppGallery.csproj": {
+              "projectPath": "C:\\Users\\Patricia\\Desktop\\AppGallery\\AppGallery\\AppGallery\\AppGallery.csproj"
             }
           }
         }
