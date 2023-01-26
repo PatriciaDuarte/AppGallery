@@ -16,5 +16,36 @@ namespace AppGallery.AppBase
         {
             InitializeComponent();
         }
+
+        private void AbrirContentPage(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Paginas.PaginaDeConteudo.Conteudo01();
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+    }
+
+        private void AbrirNavigationPage(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(XamarinForms.Paginas.PaginaDeNavegacao.Conteudo01());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirCarrouselPage(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Paginas.PaginaDeCarrossel.Carrossel();
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirTabbedPage(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Paginas.PaginaDeAbas.Abas();
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirMasterDetailPage(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Paginas.PaginaDeMenuLateral.Conteudo01();
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

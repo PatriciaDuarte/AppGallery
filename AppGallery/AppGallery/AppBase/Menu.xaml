@@ -4,9 +4,14 @@
              x:Class="AppGallery.AppBase.Menu">
             xmlns:local="clr-namespace:AppGallery.AppBase"
 <MasterDetailPage.Master>
-        <ContentPage Title="Menu
+        <ContentPage Title="Menu"
             <StackLayout>
-                <Button Text="">
+            <Label Text="Páginas" />
+            <Button Text="ContentPage" Clicked="Button_Clicked" />
+            <Button Text="Navigation Page" Clicked="AbrirNavigationPage" />
+            <Button Text="CarouselPage" Clicked="AbrirCarrouselPage"/>
+            <Button Text="TabbedPage" Clicked="AbrirTabbedPage"/>
+            <Button Text="MasterDetailPage" Clicked="Button_Clicked_4"/>
             </StackLayout>
         </ContentPage>
 </MasterDetailPage.Master>
