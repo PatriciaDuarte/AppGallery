@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.AppBase.Menu">
+            xmlns:local="clr-namespace:AppGallery.AppBase"
+<MasterDetailPage.Master>
+        <ContentPage Title="Menu
+            <StackLayout>
+                <Button Text="">
+            </StackLayout>
+        </ContentPage>
+</MasterDetailPage.Master>
+    <MasterDetailPage.Master>
+        <local:Inicio/>
+    </MasterDetailPage.Master>
+</MasterDetailPage>
