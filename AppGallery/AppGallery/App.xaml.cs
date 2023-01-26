@@ -28,9 +28,11 @@ namespace AppGallery
             //menu
             //pagina.master = ;
             //conteúdo
-           // pagina.detail = ;
+            // pagina.detail = ;
 
-            MainPage = new XamarinForms.Paginas.PaginaDeMenuLateral.MenuLateral();
+            // MainPage = new XamarinForms.Paginas.PaginaDeMenuLateral.MenuLateral();
+            MainPage = new AppBase.Menu();
+            
         }
       
 

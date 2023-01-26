@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace AppGallery.AppBase
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Menu : MasterDetailPage
+    public partial class Menu : FlyoutPage
     {
         public Menu()
         {
@@ -19,44 +19,41 @@ namespace AppGallery.AppBase
 
         private void AbrirContentPage(object sender, EventArgs e)
         {
-            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Paginas.PaginaDeConteudo.Conteudo01();
-            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+            ((FlyoutPage)App.Current.MainPage).Detail = new XamarinForms.Paginas.PaginaDeConteudo.Conteudo01();
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-
-        }
 
         private void AbrirPaginaModal(object sender, EventArgs e)
         {
-            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Paginas.Modal.Conteudo01();
-            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+            ((FlyoutPage)App.Current.MainPage).Detail = new XamarinForms.Paginas.Modal.Conteudo01();
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
     
 
         private void AbrirNavigationPage(object sender, EventArgs e)
         {
-            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(XamarinForms.Paginas.PaginaDeNavegacao.Conteudo01());
-            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Paginas.PaginaDeNavegacao.Conteudo01());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
         
         private void AbrirCarrouselPage(object sender, EventArgs e)
         {
-            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Paginas.PaginaDeCarrossel.Carrossel();
-            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+            ((FlyoutPage)App.Current.MainPage).Detail = new XamarinForms.Paginas.PaginaDeCarrossel.Carrossel();
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
 
         private void AbrirTabbedPage(object sender, EventArgs e)
         {
-            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Paginas.PaginaDeAbas.Abas();
-            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+            ((FlyoutPage)App.Current.MainPage).Detail = new XamarinForms.Paginas.PaginaDeAbas.Abas();
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
 
-        private void AbrirMasterDetailPage(object sender, EventArgs e)
+        private void AbrirFlyoutPage(object sender, EventArgs e)
         {
-            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Paginas.PaginaDeMenuLateral.Conteudo01();
-            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+            ((FlyoutPage)App.Current.MainPage).Detail = new XamarinForms.Paginas.PaginaDeMenuLateral.Conteudo01();
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
+
     }
 }

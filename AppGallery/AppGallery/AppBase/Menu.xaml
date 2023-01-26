@@ -1,22 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+<FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppGallery.AppBase.Menu">
-            xmlns:local="clr-namespace:AppGallery.AppBase"
-<MasterDetailPage.Master>
-        <ContentPage Title="Menu"
+             xmlns:local="clr-namespace:AppGallery.AppBase"
+             mc:Ignorable="d"
+             x:Class="AppGallery.AppBase.Menu">  
+    <FlyoutPage.Flyout>
+        <ContentPage Title="Menu">
             <StackLayout>
             <Label Text="Páginas" />
-            <Button Text="ContentPage" Clicked="Button_Clicked" />
+            <Button Text="ContentPage" Clicked="AbrirContentPage" />
             <Button Text="Navigation Page" Clicked="AbrirNavigationPage" />
             <Button Text="CarouselPage" Clicked="AbrirCarrouselPage"/>
             <Button Text="TabbedPage" Clicked="AbrirTabbedPage"/>
-            <Button Text="MasterDetailPage" Clicked="Button_Clicked_4"/>
+            <Button Text="FlyoutPage" Clicked="AbrirFlyoutPage"/>
             <Button Text="Modal" Clicked="AbrirPaginaModal"/>
             </StackLayout>
         </ContentPage>
-</MasterDetailPage.Master>
-    <MasterDetailPage.Master>
-        <local:Inicio/>
-    </MasterDetailPage.Master>
-</MasterDetailPage>
+</FlyoutPage.Flyout>
+    <FlyoutPage.Flyout>
+        <NavigationPage>
+            <x:Arguments>
+                <local:Inicio />
+            </x:Arguments>
+                    
+        </NavigationPage>
+    </FlyoutPage.Flyout>
+</FlyoutPage>
