@@ -22,14 +22,25 @@ namespace AppGallery.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Paginas.PaginaDeConteudo.Conteudo01();
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
-    }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AbrirPaginaModal(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Paginas.Modal.Conteudo01();
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+    
 
         private void AbrirNavigationPage(object sender, EventArgs e)
         {
             ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(XamarinForms.Paginas.PaginaDeNavegacao.Conteudo01());
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
-
+        
         private void AbrirCarrouselPage(object sender, EventArgs e)
         {
             ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Paginas.PaginaDeCarrossel.Carrossel();

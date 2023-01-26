@@ -12,6 +12,7 @@
             <Button Text="CarouselPage" Clicked="AbrirCarrouselPage"/>
             <Button Text="TabbedPage" Clicked="AbrirTabbedPage"/>
             <Button Text="MasterDetailPage" Clicked="Button_Clicked_4"/>
+            <Button Text="Modal" Clicked="AbrirPaginaModal"/>
             </StackLayout>
         </ContentPage>
 </MasterDetailPage.Master>
